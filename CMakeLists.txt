@@ -17,8 +17,8 @@ ament_target_dependencies(
   example_interfaces
 )
 
-install(
-  TARGETS add_two_ints_server
+install(TARGETS
+  add_two_ints_server
   DESTINATION lib/${PROJECT_NAME}
 )
 
